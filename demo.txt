@@ -1,0 +1,155 @@
+1.switching to sql mode
+  \sql
+2.connecting to MySQL server
+  \connect root@localhost:3306
+3.showing database
+  show databases;
+  show schemas;
+4.switching to a database
+  use database_name;
+5.creating a new database
+  create database database_name
+6.showing tables inside a database
+  show tables;
+7.displaying records of a table
+  select * from table_name;
+==============================================================================
+create a table employee with fields empId,name,age,salary,designation and enter records.
+  1.arrange the table in ascending order of salary
+  2.arrange the table in descending order of age
+  3.display the name and designation of employees whose salary is between 30000 and 80000.
+==============================================================================
+Joins In SQL:
+==============
+Inner Join 
+Outer Join
+   ============>1.Left Outer Join  
+                2.Right Outer Join
+                3.Full Join
+Cross Join
+==========================================================================
+Constraints In SQL:
+=====================
+UNIQUE
+NOT NULL
+Primary Key
+Foreign Key
+==========================================================================================
+DJango========>web application development framework
+------------------------------------------------------------
+MVC architecture====>Model View Controller
+MVT architecture====>Model View Template
+============================================================
+Steps To Create A Django Web Application:
+===========================================
+1. create a project 
+   django-admin startproject project1
+2. create an app inside the project
+   py manage.py stapp testapp
+3. register app inside project(settings.py)
+4. write Business Logic for your application(views.py)
+5. url setting(urls.py) for view 
+6. run the Django server
+===================================================================================                                                                                                                                                                                                                                           
+How To Separate Template From Views
+==========================================================
+Models=====>database
+------------------------
+Python Application====>python
+Database(mysql)====>sql
+========================================
+PDBC====>Python Database Connectivity
+Python program which communicates with sql queries
+======================================================
+ORM====>Object Relational Mapping
+"no need to write sql query"
+python class===>object====>mapped into===>relational table
+(models)
+----------------------
+create table Student(rollno integer,name varchar(15)
+)
+==============================================================
+class Student(models.Model):
+  rollno=models.IntegerField(primary_key=True)
+  name=models.CharField(null=False)
+  email=models.EmailField(unique=True)https://github.com/nandan1210/nie
+
+
+===============================================
+https://github.com/nandan1210/nie
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
