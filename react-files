@@ -4308,6 +4308,12 @@ export default defineConfig([
     },
   },
 ])
+===================================================
+index.html
+============
+ <script type="module" src="/src/main.jsx"></script>
+
+
 
 
 
